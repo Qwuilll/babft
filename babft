@@ -176,12 +176,6 @@ function Win()
 		Tween(1, game:GetService('Workspace').BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame)
 	end
 end
-function Block()
-		Tween(1, game:GetService('Workspace').BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame)
-		Tween(2, game:GetService('Workspace').BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame * CFrame.new(0, 0, 1000))
-		Tween(1, game:GetService('Workspace').BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame)
-	end
-end
 
 Player.OtherData.End.Changed:Connect(function()
 	if AutoWinToggle == true then
@@ -191,16 +185,8 @@ Player.OtherData.End.Changed:Connect(function()
 	end
 end)
 
-Player.OtherData.End.Changed:Connect(function()
-	if BlockFarmToggle == true then
-		if Player.OtherData.End.Value ~= 'EndReached' then
-			Block()
-		end
-	end
-end)
-
 Player.CharacterAdded:Connect(function()
-	if AutoWinToggle == true or BlockFarmToggle == true then
+	if AutoWinToggle == true then
 		if Player:HasAppearanceLoaded() then
 			game:GetService('Workspace').ClaimRiverResultsGold:FireServer()
 		end
