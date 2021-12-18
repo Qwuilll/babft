@@ -189,19 +189,13 @@ Player.OtherData.End.Changed:Connect(function()
 		if Player.OtherData.End.Value ~= 'EndReached' then
 			Win()
 		end
-		if BlockFarmToggle == true then
-		break
-		end
 	end
 end)
 
 Player.OtherData.End.Changed:Connect(function()
 	if BlockFarmToggle == true then
 		if Player.OtherData.End.Value ~= 'EndReached' then
-			Win()
-		end
-		if AutoWinToggle == true then
-		break
+			Block()
 		end
 	end
 end)
