@@ -1,4 +1,3 @@
-local Humanoid = workspace:WaitForChild("XxAeroxX_YT")
 local Player = game:GetService('Players').LocalPlayer
 Player.Idled:connect(function()
 	game:GetService('VirtualUser'):Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
@@ -193,8 +192,7 @@ wait(2)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame
 wait(2)
 workspace.Gravity = 196.2
-workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -335, 9500)
-end
+workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -330, 9500)
 end
 
 function Block()
@@ -203,9 +201,7 @@ workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').Boa
 wait(2)
 Tween(3, game:GetService('Workspace').BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame)
 workspace.Gravity = 196.2
-workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -335, 9500)
-wait(2)
-end
+workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -330, 9500)
 end
 
 Player.OtherData.End.Changed:Connect(function()
