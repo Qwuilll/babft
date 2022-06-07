@@ -194,9 +194,6 @@ workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').Boa
 wait(2)
 workspace.Gravity = 196.2
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -335, 9500)
-wait(2)
-Humanoid = Humanoid:WaitForChild("Humanoid")
-    Humanoid.Jump = true
 end
 end
 
@@ -208,8 +205,6 @@ Tween(3, game:GetService('Workspace').BoatStages.NormalStages.CaveStage10.Darkne
 workspace.Gravity = 196.2
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -335, 9500)
 wait(2)
-Humanoid = Humanoid:WaitForChild("Humanoid")
-    Humanoid.Jump = true
 end
 end
 
