@@ -168,6 +168,7 @@ function Tween(Time, Position)
 	game:GetService('TweenService'):Create(Player.Character.HumanoidRootPart, TweenInfo.new(Time, Enum.EasingStyle.Linear), {CFrame = Position}):Play() wait(Time)
 	game:GetService('Workspace').Gravity = 196.2
 end
+local Humanoid = workspace:WaitForChild("XxAeroxX_YT")
 
 function Win()
 workspace.Gravity = 0
@@ -192,7 +193,10 @@ wait(2)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame
 wait(2)
 workspace.Gravity = 196.2
-workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -330, 9500)
+workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -355, 9500)
+Humanoid = Humanoid:WaitForChild("Humanoid")
+    Humanoid.Jump = true
+end
 end
 
 function Block()
@@ -202,6 +206,9 @@ wait(2)
 Tween(3, game:GetService('Workspace').BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame)
 workspace.Gravity = 196.2
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -355, 9500)
+Humanoid = Humanoid:WaitForChild("Humanoid")
+    Humanoid.Jump = true
+end
 end
 
 Player.OtherData.End.Changed:Connect(function()
