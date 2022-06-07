@@ -193,7 +193,7 @@ wait(2)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame
 wait(2)
 workspace.Gravity = 196.2
-workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -360, 9502)
+workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -360, 9503)
 wait(3)
 Humanoid = Humanoid:WaitForChild("Humanoid")
 Humanoid.Jump = true
