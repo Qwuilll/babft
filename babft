@@ -191,8 +191,8 @@ workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').Boa
 wait(2)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame
 wait(2)
-workspace.Gravity = 1000
-workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -320, 9500)
+workspace.Gravity = 196.2
+workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -330, 9500)
 end
 
 function Block()
@@ -200,8 +200,8 @@ workspace.Gravity = 0
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame
 wait(2)
 Tween(3, game:GetService('Workspace').BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame)
-workspace.Gravity = 1000
-workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -320, 9500)
+workspace.Gravity = 196.2
+workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -330, 9500)
 end
 
 Player.OtherData.End.Changed:Connect(function()
