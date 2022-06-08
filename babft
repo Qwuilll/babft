@@ -170,7 +170,7 @@ function Tween(Time, Position)
 	game:GetService('Workspace').Gravity = 196.2
 end
 
-local time = 1.5
+local time = 1.8
 
 function Win()
 workspace.Gravity = 0
