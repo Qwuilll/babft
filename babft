@@ -174,6 +174,9 @@ local time = 2
 
 function Win()
 workspace.Gravity = 0
+game:GetService("RunService").Stepped:wait()
+	game.Players.LocalPlayer.Character.Head.CanCollide = true
+	game.Players.LocalPlayer.Character.Torso.CanCollide = true
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame
 wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame
@@ -196,8 +199,8 @@ workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').Boa
 wait(time)
 workspace.Gravity = 196.2
 game:GetService("RunService").Stepped:wait()
-	game.Players.LocalPlayer.Character.Head.CanCollide = false
-	game.Players.LocalPlayer.Character.Torso.CanCollide = false
+	game.Players.LocalPlayer.Character.Head.CanCollide = true
+	game.Players.LocalPlayer.Character.Torso.CanCollide = true
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -355, 9502)
 wait(3)
 Humanoid = Humanoid:WaitForChild("Humanoid")
