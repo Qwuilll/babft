@@ -195,7 +195,9 @@ wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame
 wait(time)
 workspace.Gravity = 196.2
-workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -360, 9502.6)
+workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -360, 9491)
+wait(0.2)
+Tween(1, CFrame.new(-55, -360, 9504)
 wait(3)
 Humanoid = Humanoid:WaitForChild("Humanoid")
 Humanoid.Jump = true
@@ -207,7 +209,9 @@ workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').Boa
 wait(time)
 Tween(3, game:GetService('Workspace').BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame)
 workspace.Gravity = 196.2
-workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -360, 9502.6)
+workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -360, 9491)
+wait(0.2)
+Tween(1, CFrame.new(-55, -360, 9504)
 wait(3)
 Humanoid = Humanoid:WaitForChild("Humanoid")
 Humanoid.Jump = true
