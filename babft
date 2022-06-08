@@ -170,28 +170,30 @@ function Tween(Time, Position)
 	game:GetService('Workspace').Gravity = 196.2
 end
 
+local time = 1.5
+
 function Win()
 workspace.Gravity = 0
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame
-wait(2)
+wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame
-wait(2)
+wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage3.DarknessPart.CFrame
-wait(2)
+wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage4.DarknessPart.CFrame
-wait(2)
+wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage5.DarknessPart.CFrame
-wait(2)
+wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage6.DarknessPart.CFrame
-wait(2)
+wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage7.DarknessPart.CFrame
-wait(2)
+wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage8.DarknessPart.CFrame
-wait(2)
+wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame
-wait(2)
+wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame
-wait(2)
+wait(time)
 workspace.Gravity = 196.2
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -360, 9502.8)
 wait(3)
@@ -203,7 +205,6 @@ function Block()
 workspace.Gravity = 0
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame
 wait(2)
-Tween(3, game:GetService('Workspace').BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame)
 workspace.Gravity = 196.2
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -360, 9502.8)
 wait(3)
