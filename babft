@@ -205,7 +205,7 @@ end
 function Block()
 	workspace.Gravity = 0
 	workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame
-	wait(5)
+	wait(4)
 	workspace.Gravity = 196.2
 	workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = CFrame.new(-55, -360, 9491)
 	wait(0.2)
