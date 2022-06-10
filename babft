@@ -237,4 +237,5 @@ Player.CharacterAdded:Connect(function()
 			game:GetService('Workspace').ClaimRiverResultsGold:FireServer()
 		end
 	end
+	wait(1)
 end)
