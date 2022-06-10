@@ -170,16 +170,16 @@ function Tween(Time, Position)
 	game:GetService('Workspace').Gravity = 196.2
 end
 
-local time = 3
+local time = 2
 
 function Win()
 workspace.Gravity = 0
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame
 wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame
-wait(time)
+wait(time+1)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage3.DarknessPart.CFrame
-wait(time)
+wait(time+1)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage4.DarknessPart.CFrame
 wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage5.DarknessPart.CFrame
