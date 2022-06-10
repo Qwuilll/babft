@@ -175,7 +175,7 @@ local time = 2
 function Win()
 workspace.Gravity = 0
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame
-wait(time)
+wait(4)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame
 wait(time)
 workspace.XxAeroxX_YT.HumanoidRootPart.CFrame = game:GetService('Workspace').BoatStages.NormalStages.CaveStage3.DarknessPart.CFrame
@@ -237,5 +237,4 @@ Player.CharacterAdded:Connect(function()
 			game:GetService('Workspace').ClaimRiverResultsGold:FireServer()
 		end
 	end
-	wait(1)
 end)
